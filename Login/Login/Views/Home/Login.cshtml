@@ -1,0 +1,12 @@
+﻿@{
+    ViewBag.Title = "Login";
+}
+<h2>Login</h2>
+
+<form method="post">
+    Username: <input type="text" name="Username" required /><br /><br />
+    Password: <input type="password" name="Password" required /><br /><br />
+    <button type="submit">Login</button>
+</form>
+
+<p style="color:red;">@ViewBag.Message</p>
